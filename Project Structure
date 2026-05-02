@@ -1,0 +1,70 @@
+private-zone/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   └── multer.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── userController.js
+│   │   │   ├── creatorController.js
+│   │   │   ├── adminController.js
+│   │   │   └── paymentController.js
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   ├── ageVerification.js
+│   │   │   └── upload.js
+│   │   ├── models/
+│   │   │   ├── User.js
+│   │   │   ├── Creator.js
+│   │   │   ├── Content.js
+│   │   │   ├── Subscription.js
+│   │   │   ├── Transaction.js
+│   │   │   └── Report.js
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── users.js
+│   │   │   ├── creators.js
+│   │   │   ├── admin.js
+│   │   │   └── payments.js
+│   │   ├── utils/
+│   │   │   └── mpesaSimulator.js
+│   │   └── app.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Layout/
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   └── Sidebar.jsx
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   └── Register.jsx
+│   │   │   ├── User/
+│   │   │   │   ├── BrowseCreators.jsx
+│   │   │   │   ├── CreatorProfile.jsx
+│   │   │   │   ├── Wallet.jsx
+│   │   │   │   └── ContentViewer.jsx
+│   │   │   ├── Creator/
+│   │   │   │   ├── CreatorDashboard.jsx
+│   │   │   │   ├── UploadContent.jsx
+│   │   │   │   └── Earnings.jsx
+│   │   │   └── Admin/
+│   │   │       ├── AdminDashboard.jsx
+│   │   │       ├── ManageUsers.jsx
+│   │   │       └── Moderation.jsx
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── styles/
+│   │   │   └── globals.css
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── package.json
+│   └── tailwind.config.js
+└── README.md
